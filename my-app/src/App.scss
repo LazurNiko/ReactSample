@@ -1,0 +1,13 @@
+$color: antiquewhite;
+
+body {
+  color: rgb(0, 82, 82);
+}
+
+.app {
+  padding: 10px;
+  border-radius: 3px solid blue;
+  border: 10px;
+  background-color: $color;
+  
+}
