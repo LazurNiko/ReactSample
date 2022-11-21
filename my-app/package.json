@@ -36,6 +36,8 @@
     ]
   },
   "devDependencies": {
+    "@cypress/react": "^7.0.1",
+    "cypress": "^11.1.0",
     "sass": "^1.56.1"
   }
 }

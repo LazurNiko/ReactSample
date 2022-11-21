@@ -1,21 +1,17 @@
 import React from "react";
-import Header from './Header';
-import Footer from "./Footer";
+import Header from "./components/Header/Header.jsx";
+import Welcome from "./components/Welcome/Welcome.jsx";
+import Article from './components/Article/Article.jsx';
 import './App.scss';
 
-const cssClasses = "app app--active";
-const styleObj ={
-    fontStyle: "italic",
-};
-const data = <ul><li>1</li></ul>;
-const App = () => (
-  <div className={cssClasses} style={styleObj}>
-<h1>Hello123</h1>
-<Header />
-Some text
-<Footer />
-{data}
-  </div>
-);
+function App() {
+  return (
+    <main className="app" >
+      <Welcome />
+      <Header />
+      <Article />
+    </main>
+  );
+}
 
 export default App;
