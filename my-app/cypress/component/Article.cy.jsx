@@ -30,6 +30,6 @@ describe('Article component', () => {
   it('should have styles added with media', () => {
     cy.get('.article')
       .should('have.css', 'padding', '44.8px')
-      .and('have.css', 'margin-bottom', '0px');
+      .and('have.css', 'margin', '78.4px 0px 0px');
   });
 });
